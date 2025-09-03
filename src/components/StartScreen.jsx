@@ -6,10 +6,10 @@ const StartScreen = ({ numberOfTeams, setNumberOfTeams, onStartGame }) => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-4 font-inter">
       <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-xl max-w-lg w-full text-center">
         <h1 className="text-4xl font-bold mb-4 text-violet-500 flex items-center justify-center gap-2">
-          <Lock size={36} /> Juego de Seguridad Digital
+          <Lock size={36} /> Juego El Misterio de la PC
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-6">
-          Juega y aprende sobre cómo protegerte en la red.
+          Juega y aprende sobre Hardware.
         </p>
 
         {/* Selector de modo de juego */}
